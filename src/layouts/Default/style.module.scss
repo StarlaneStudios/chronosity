@@ -1,0 +1,38 @@
+.root {
+	min-height: 100vh;
+	display: flex;
+}
+
+.sidebar {
+	width: 272px;
+	padding-inline: var(--mantine-spacing-lg);
+	position: sticky;
+	align-self: flex-start;
+	top: 0;
+
+	&-logo {
+		text-align: center;
+	}
+}
+
+.nav-link {
+	text-decoration: none;
+}
+
+.nav-button {
+	justify-content: flex-start;
+	text-transform: capitalize;
+	letter-spacing: 0;
+	font-weight: 500;
+	font-size: 14;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	width: 0;
+	
+	> * {
+		width: 100%;
+	}
+}

@@ -1,0 +1,22 @@
+.root {
+	z-index: 5;
+	position: sticky;
+	top: 0;
+}
+
+.title {
+	text-transform: capitalize;
+}
+
+.breadcrumb {
+	text-transform: capitalize;
+	
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+}
+
+.creator {
+	border-radius: var(--mantine-radius-md);
+}

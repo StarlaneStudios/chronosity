@@ -1,0 +1,13 @@
+.loading {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	inset: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #f1f3f8; /* SHOULD NOT BE HARDCODED */
+	transition: opacity .5s;
+	z-index: 999;
+}
